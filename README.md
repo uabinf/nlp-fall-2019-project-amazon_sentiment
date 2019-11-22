@@ -11,5 +11,4 @@ Using different review datasets that come from different sources and are about d
 transfer learning on our classifier. Additionally, we will be able to investigate what products (from their reviews) have similar 
 sentiments or are classified in a similar way.
 
-This project will implement BERT for our sentiment classifier. Pretraining will be done with the datasets described above, and fine-tuning
-will be performed in order to achieve the best and most revealing results.
+This project will implement Flair (a BERT NLP Framework on Pytorch) for our sentiment classifiers. Pretraining will be done with the datasets described above, and fine-tuning will be performed in order to achieve the best and most revealing results.
