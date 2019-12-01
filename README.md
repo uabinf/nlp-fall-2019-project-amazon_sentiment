@@ -77,3 +77,14 @@ Test: Amazon, Yelp, IMDB
 #### DataLoader.ipynb
 
 Logic to setup the datasets
+
+## Results
+
+### Flair
+
+| ID | Train Data           | Test Data | Label              | Accuracy                   | Precision                  | Recall                     | F1-score                   |
+|----|----------------------|-----------|--------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+| S1 | IMDB (pre-trained)   | Amazon    | -                  | 0.6796                     | 0.6962                     | 0.6374                     | 0.6655                     |
+| S2 | Yelp                 | Amazon    | NEG<br>----<br>POS | 0.5475<br>------<br>0.5565 | 0.7170<br>------<br>0.7060 | 0.6984<br>------<br>0.7244 | 0.7076<br>------<br>0.6964 |
+| S3 | IMDB + YELP          | AMAZON    | NEG<br>----<br>POS | 0.5343<br>------<br>0.5783 | 0.7474<br>------<br>0.6914 | 0.6520<br>------<br>0.7796 | 0.6964<br>------<br>0.7329 |
+| S4 | IMDB + YELP + AMAZON | AMAZON    | NEG<br>---<br>POS  | 0.6143<br>------<br>0.5971 | 0.7415<br>------<br>0.7692 | 0.7818<br>------<br>0.7274 | 0.7611<br>------<br>0.7477 |
