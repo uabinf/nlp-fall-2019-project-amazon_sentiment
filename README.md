@@ -1,5 +1,5 @@
 # NLP Group Project
-## Contributors: Atulya Shetty and Payton Walker
+## Contributors: Atulya Shetty(tuly1, atulya22) and Payton Walker (paytonross).
 
 *GitHub Repository for all documents related to NLP final group project.
 
@@ -11,7 +11,7 @@ The aim of this project was to build a sentiment classifier for product reviews 
 
 Flair - Embeddings for XLNET
 
-Transformers - For the Pre-trained BERT model 
+Transformers (HuggingFace) - For the Pre-trained BERT model 
 
 Keras - To add padding sequences for the BERT model input
 
