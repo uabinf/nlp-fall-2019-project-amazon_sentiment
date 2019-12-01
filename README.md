@@ -88,3 +88,11 @@ Logic to setup the datasets
 | S2 | Yelp                 | Amazon    | NEG<br>----<br>POS | 0.5475<br>------<br>0.5565 | 0.7170<br>------<br>0.7060 | 0.6984<br>------<br>0.7244 | 0.7076<br>------<br>0.6964 |
 | S3 | IMDB + YELP          | AMAZON    | NEG<br>----<br>POS | 0.5343<br>------<br>0.5783 | 0.7474<br>------<br>0.6914 | 0.6520<br>------<br>0.7796 | 0.6964<br>------<br>0.7329 |
 | S4 | IMDB + YELP + AMAZON | AMAZON    | NEG<br>---<br>POS  | 0.6143<br>------<br>0.5971 | 0.7415<br>------<br>0.7692 | 0.7818<br>------<br>0.7274 | 0.7611<br>------<br>0.7477 |
+
+### BERT 
+
+| ID | Train Data | Test Data | Accuracy | Precision | Recall | F1-score |
+|----|------------|-----------|----------|-----------|--------|----------|
+| H1 | Amazon     | Amazon    | 0.8895   | 0.9531    | 0.9030 | 0.9274   |
+| H2 | Amazon     | Yelp      | 0.6465   | 0.8641    | 0.6975 | 0.772    |
+| H3 | Amazon     | IMDB      | 0.5517   | 0.6353    | 0.698  | 0.665    |
